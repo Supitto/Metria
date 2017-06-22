@@ -1,0 +1,8 @@
+﻿This documents hold the patterns for the Metria project, please on future changes or doubts use this document as a guide.
+
+1. Every attribute is static
+2. Every static attribute begins with a underscore and a low case letter
+3. Every static attribute that needs exterior read acess must have a public methodlike counterparts that have the same name as the static attribute but starts with capital leter
+4. Every static attribute that needs to be written from exterior must have a public methodlike counterparts that have the same name as the static attribute but starts with capital leter
+5. Every static method must begin with undescore and begin with lowcase leter
+6. In Hyperbolic line, A is the point with less X and B with the most. InVertical, A have less Y than B

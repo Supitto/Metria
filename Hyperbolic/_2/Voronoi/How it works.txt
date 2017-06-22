@@ -1,0 +1,19 @@
+﻿The Hyperbolic Voronoi works like this,
+
+-------------------------first part-----------------------------------------------------------
+First we get a empty voronoi,
+then we add one point and call it the total,
+the we add another point and we subdive the total by the medium segment between the two points
+That ends the first part.
+
+
+Ps. until here everything is working
+-------------------------second part----------------------------------------------------------
+
+Make a queue of index of the cells to be cut,
+find in which cell the point is inside,
+create a new cell centered on the point,
+once you find, add it to the queue and mark it as visited,
+For each member of the queue:
+	cut the cell and add the cut line segment to the new cell
+	enqueue the cells that are neighbors of the cutten sides
